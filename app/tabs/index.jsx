@@ -5,7 +5,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { FontAwesome6 } from '@expo/vector-icons';
 import { useTheme } from '../context/ThemeContext';
 
-const moods = ['Happy', 'Sad', 'Motivated', 'Relaxed', 'Angry'];
+const moods = ['Happy', 'Sad', 'Motivated', 'Relaxed', 'Angry','Excited', 'Bored', 'Anxious', 'Confused', 'Grateful'];
 
 export default function IndexPage() {
   const { isDarkMode, toggleTheme } = useTheme();
