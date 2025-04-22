@@ -9,7 +9,7 @@ export default function TabsLayout() {
             <FontAwesome5 name="journal-whills" size={24} color="black" />
           ), }} />
       <Tabs.Screen name="explore" options={{ title: 'Explore',  tabBarIcon: ({ color, focused }) => (
-            <FontAwesome name="search" size={24} color="black" />
+            <FontAwesome name="search" size={25} color="black" />
           ) }} />
     </Tabs>
   );
